@@ -1,0 +1,27 @@
+@import './global.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background: rgba(56, 189, 248, 0.25);
+}
+
+button,
+a {
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
